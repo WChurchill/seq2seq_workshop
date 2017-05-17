@@ -1,0 +1,26 @@
+# AWS private ssh key
+*.pem
+aws_scripts
+
+# backup files
+*~
+\#*
+.\#*
+
+# python cache
+__pycache__
+
+# Training data takes up enormous space
+Data*
+*MNIST_data
+*.en*
+*.fr*
+*.tgz
+*.tar
+*.zip
+*vocab*
+
+# gnu global tags
+GPATH
+GRTAGS
+GTAGS
